@@ -20,9 +20,11 @@ public class JavaInitWithMain {
 		initVar("normal init block");
 	}
 	
-	private static TestB nB = new TestB();
+//	private static TestB nB = new TestB();
 	
-	private TestB nb2 = new TestB();
+	private static TheSonofTestB sonNB =  new TheSonofTestB();
+	
+//	private TestB nb2 = new TestB();
 	
 	public JavaInitWithMain(){
 		System.out.println(initVar("constructor"));
